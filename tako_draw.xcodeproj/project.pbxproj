@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1DE697E25CA64DC0052ED55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE697D25CA64DC0052ED55 /* AppDelegate.swift */; };
+		A1DE698025CA64DC0052ED55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE697F25CA64DC0052ED55 /* SceneDelegate.swift */; };
+		A1DE698225CA64DC0052ED55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE698125CA64DC0052ED55 /* ViewController.swift */; };
+		A1DE698525CA64DC0052ED55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DE698325CA64DC0052ED55 /* Main.storyboard */; };
+		A1DE698725CA64DD0052ED55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1DE698625CA64DD0052ED55 /* Assets.xcassets */; };
+		A1DE698A25CA64DD0052ED55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1DE698825CA64DD0052ED55 /* LaunchScreen.storyboard */; };
+		A1DE699525CA64DE0052ED55 /* tako_drawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE699425CA64DE0052ED55 /* tako_drawTests.swift */; };
+		A1DE69A025CA64DE0052ED55 /* tako_drawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1DE699F25CA64DE0052ED55 /* tako_drawUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1DE699125CA64DE0052ED55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1DE697225CA64DC0052ED55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1DE697925CA64DC0052ED55;
+			remoteInfo = tako_draw;
+		};
+		A1DE699C25CA64DE0052ED55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1DE697225CA64DC0052ED55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1DE697925CA64DC0052ED55;
+			remoteInfo = tako_draw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1DE697A25CA64DC0052ED55 /* tako_draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tako_draw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DE697D25CA64DC0052ED55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1DE697F25CA64DC0052ED55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1DE698125CA64DC0052ED55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1DE698425CA64DC0052ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1DE698625CA64DD0052ED55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1DE698925CA64DD0052ED55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1DE698B25CA64DE0052ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DE699025CA64DE0052ED55 /* tako_drawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tako_drawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DE699425CA64DE0052ED55 /* tako_drawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tako_drawTests.swift; sourceTree = "<group>"; };
+		A1DE699625CA64DE0052ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DE699B25CA64DE0052ED55 /* tako_drawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tako_drawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1DE699F25CA64DE0052ED55 /* tako_drawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tako_drawUITests.swift; sourceTree = "<group>"; };
+		A1DE69A125CA64DE0052ED55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1DE697725CA64DC0052ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE698D25CA64DE0052ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE699825CA64DE0052ED55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1DE697125CA64DC0052ED55 = {
+			isa = PBXGroup;
+			children = (
+				A1DE697C25CA64DC0052ED55 /* tako_draw */,
+				A1DE699325CA64DE0052ED55 /* tako_drawTests */,
+				A1DE699E25CA64DE0052ED55 /* tako_drawUITests */,
+				A1DE697B25CA64DC0052ED55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1DE697B25CA64DC0052ED55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE697A25CA64DC0052ED55 /* tako_draw.app */,
+				A1DE699025CA64DE0052ED55 /* tako_drawTests.xctest */,
+				A1DE699B25CA64DE0052ED55 /* tako_drawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1DE697C25CA64DC0052ED55 /* tako_draw */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE697D25CA64DC0052ED55 /* AppDelegate.swift */,
+				A1DE697F25CA64DC0052ED55 /* SceneDelegate.swift */,
+				A1DE698125CA64DC0052ED55 /* ViewController.swift */,
+				A1DE698325CA64DC0052ED55 /* Main.storyboard */,
+				A1DE698625CA64DD0052ED55 /* Assets.xcassets */,
+				A1DE698825CA64DD0052ED55 /* LaunchScreen.storyboard */,
+				A1DE698B25CA64DE0052ED55 /* Info.plist */,
+			);
+			path = tako_draw;
+			sourceTree = "<group>";
+		};
+		A1DE699325CA64DE0052ED55 /* tako_drawTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE699425CA64DE0052ED55 /* tako_drawTests.swift */,
+				A1DE699625CA64DE0052ED55 /* Info.plist */,
+			);
+			path = tako_drawTests;
+			sourceTree = "<group>";
+		};
+		A1DE699E25CA64DE0052ED55 /* tako_drawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1DE699F25CA64DE0052ED55 /* tako_drawUITests.swift */,
+				A1DE69A125CA64DE0052ED55 /* Info.plist */,
+			);
+			path = tako_drawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1DE697925CA64DC0052ED55 /* tako_draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DE69A425CA64DE0052ED55 /* Build configuration list for PBXNativeTarget "tako_draw" */;
+			buildPhases = (
+				A1DE697625CA64DC0052ED55 /* Sources */,
+				A1DE697725CA64DC0052ED55 /* Frameworks */,
+				A1DE697825CA64DC0052ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tako_draw;
+			productName = tako_draw;
+			productReference = A1DE697A25CA64DC0052ED55 /* tako_draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1DE698F25CA64DE0052ED55 /* tako_drawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DE69A725CA64DE0052ED55 /* Build configuration list for PBXNativeTarget "tako_drawTests" */;
+			buildPhases = (
+				A1DE698C25CA64DE0052ED55 /* Sources */,
+				A1DE698D25CA64DE0052ED55 /* Frameworks */,
+				A1DE698E25CA64DE0052ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1DE699225CA64DE0052ED55 /* PBXTargetDependency */,
+			);
+			name = tako_drawTests;
+			productName = tako_drawTests;
+			productReference = A1DE699025CA64DE0052ED55 /* tako_drawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1DE699A25CA64DE0052ED55 /* tako_drawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1DE69AA25CA64DE0052ED55 /* Build configuration list for PBXNativeTarget "tako_drawUITests" */;
+			buildPhases = (
+				A1DE699725CA64DE0052ED55 /* Sources */,
+				A1DE699825CA64DE0052ED55 /* Frameworks */,
+				A1DE699925CA64DE0052ED55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1DE699D25CA64DE0052ED55 /* PBXTargetDependency */,
+			);
+			name = tako_drawUITests;
+			productName = tako_drawUITests;
+			productReference = A1DE699B25CA64DE0052ED55 /* tako_drawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1DE697225CA64DC0052ED55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A1DE697925CA64DC0052ED55 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A1DE698F25CA64DE0052ED55 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1DE697925CA64DC0052ED55;
+					};
+					A1DE699A25CA64DE0052ED55 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1DE697925CA64DC0052ED55;
+					};
+				};
+			};
+			buildConfigurationList = A1DE697525CA64DC0052ED55 /* Build configuration list for PBXProject "tako_draw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1DE697125CA64DC0052ED55;
+			productRefGroup = A1DE697B25CA64DC0052ED55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1DE697925CA64DC0052ED55 /* tako_draw */,
+				A1DE698F25CA64DE0052ED55 /* tako_drawTests */,
+				A1DE699A25CA64DE0052ED55 /* tako_drawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1DE697825CA64DC0052ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE698A25CA64DD0052ED55 /* LaunchScreen.storyboard in Resources */,
+				A1DE698725CA64DD0052ED55 /* Assets.xcassets in Resources */,
+				A1DE698525CA64DC0052ED55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE698E25CA64DE0052ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE699925CA64DE0052ED55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1DE697625CA64DC0052ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE698225CA64DC0052ED55 /* ViewController.swift in Sources */,
+				A1DE697E25CA64DC0052ED55 /* AppDelegate.swift in Sources */,
+				A1DE698025CA64DC0052ED55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE698C25CA64DE0052ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE699525CA64DE0052ED55 /* tako_drawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DE699725CA64DE0052ED55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE69A025CA64DE0052ED55 /* tako_drawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1DE699225CA64DE0052ED55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1DE697925CA64DC0052ED55 /* tako_draw */;
+			targetProxy = A1DE699125CA64DE0052ED55 /* PBXContainerItemProxy */;
+		};
+		A1DE699D25CA64DE0052ED55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1DE697925CA64DC0052ED55 /* tako_draw */;
+			targetProxy = A1DE699C25CA64DE0052ED55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1DE698325CA64DC0052ED55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1DE698425CA64DC0052ED55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1DE698825CA64DD0052ED55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1DE698925CA64DD0052ED55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1DE69A225CA64DE0052ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1DE69A325CA64DE0052ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1DE69A525CA64DE0052ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = tako_draw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.tako-draw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1DE69A625CA64DE0052ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = tako_draw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.tako-draw";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1DE69A825CA64DE0052ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = tako_drawTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.tako-drawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tako_draw.app/tako_draw";
+			};
+			name = Debug;
+		};
+		A1DE69A925CA64DE0052ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = tako_drawTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.tako-drawTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tako_draw.app/tako_draw";
+			};
+			name = Release;
+		};
+		A1DE69AB25CA64DE0052ED55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = tako_drawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.tako-drawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tako_draw;
+			};
+			name = Debug;
+		};
+		A1DE69AC25CA64DE0052ED55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = tako_drawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litech.tako-drawUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tako_draw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1DE697525CA64DC0052ED55 /* Build configuration list for PBXProject "tako_draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DE69A225CA64DE0052ED55 /* Debug */,
+				A1DE69A325CA64DE0052ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DE69A425CA64DE0052ED55 /* Build configuration list for PBXNativeTarget "tako_draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DE69A525CA64DE0052ED55 /* Debug */,
+				A1DE69A625CA64DE0052ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DE69A725CA64DE0052ED55 /* Build configuration list for PBXNativeTarget "tako_drawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DE69A825CA64DE0052ED55 /* Debug */,
+				A1DE69A925CA64DE0052ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1DE69AA25CA64DE0052ED55 /* Build configuration list for PBXNativeTarget "tako_drawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1DE69AB25CA64DE0052ED55 /* Debug */,
+				A1DE69AC25CA64DE0052ED55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1DE697225CA64DC0052ED55 /* Project object */;
+}
